@@ -1,3 +1,5 @@
-FROM mysql:5.7
+FROM mysql:latest
 
 COPY ./docker/db/my.cnf /etc/my.cnf
+
+# USER satoyuya
