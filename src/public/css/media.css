@@ -1,0 +1,45 @@
+.bg-top2 {
+    background-image: url("../img/DSC_0903-min.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+#guide_msg {
+    top: 10%;
+}
+
+
+.notification_image_fluid {
+    width: 280px;
+    height: auto;
+}
+.index_profile_image_fluid {
+    width: 300px;
+    height: auto;
+}
+.m_auto {
+    margin: auto;
+}
+.index_corona_attension {
+    text-align: left;
+}
+
+.login_input {
+    width: auto;
+}
+
+.bg-dairiseki {
+    box-shadow: 20px 20px 20px #ddd8d8;
+    width: 100%;
+}
+
+.bg-dairiseki2 {
+    box-shadow: 20px 20px 20px #ddd8d8;
+    width: 100%;
+}
+.index_registerd_message {
+    width: 100%;
+    margin: 1rem;
+}

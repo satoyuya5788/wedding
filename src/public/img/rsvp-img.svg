@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="120" viewBox="0 0 140 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.987" y1="0.339" x2="0" y2="0.869" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c6b86b"/>
+      <stop offset="0.212" stop-color="#f0e3b9"/>
+      <stop offset="0.276" stop-color="#968357"/>
+      <stop offset="0.555" stop-color="#efddae"/>
+      <stop offset="0.873" stop-color="#80611c"/>
+      <stop offset="0.877" stop-color="#847224"/>
+      <stop offset="0.888" stop-color="#988832"/>
+      <stop offset="0.901" stop-color="#b29945"/>
+      <stop offset="0.917" stop-color="#b29f50"/>
+      <stop offset="0.939" stop-color="#d8c07f"/>
+      <stop offset="1" stop-color="#ba9e51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.013" y1="0.339" x2="1" y2="0.869" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="rsvp-img" transform="translate(1374 -8975.84)">
+    <path id="パス_25761" data-name="パス 25761" d="M535.03,56.724a.482.482,0,0,0-.282-.353L465.175,29.64a.337.337,0,0,0-.274.011L396.667,61.2a.531.531,0,0,0-.276.5l1.346,58.276a.517.517,0,0,0,.3.481l69.576,26.729a.347.347,0,0,0,.274-.008l68.233-31.547a.533.533,0,0,0,.274-.5l-1.346-58.276A.6.6,0,0,0,535.03,56.724Zm-69.97-25.4L533.5,57.894l1.331,56.251L467.726,145.5l-68.445-26.568-1.329-56.251Z" transform="translate(-1770.391 8947.427)" fill="url(#linear-gradient)"/>
+    <path id="パス_25762" data-name="パス 25762" d="M396.717,86.614a.53.53,0,0,1,.069-.174l35.8-57.071a.4.4,0,0,1,.345-.2l68.9,2.408a.412.412,0,0,1,.339.227L535.282,91.28a.645.645,0,0,1-.015.612l-35.795,57.071a.406.406,0,0,1-.345.2l-68.9-2.408a.412.412,0,0,1-.339-.225L396.774,87.052A.615.615,0,0,1,396.717,86.614Zm37.115-55.759-35.48,55.919,32.816,58.311,67.057,2.392L533.7,91.555,500.889,33.247Z" transform="translate(-1770.029 8946.674)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

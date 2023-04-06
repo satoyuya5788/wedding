@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'webfont';
+    src: url("../css/ShipporiMinchoB1-Regular.ttf") format('ttf');
+}
+
+.webfont {
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+body {
+    width: 0 auto;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.harf-input {
+    width: 48%;
+    float: left;
+}
+
+.one-third-input {
+    width: 30%;
+    float: left;
+}
+
+.harf-post-input {
+    width: 42%;
+    float: left;
+}
+
+input::placeholder {
+    font-size: 1em;
+    color: red;
+}
+
+.form-control::placeholder {
+    color: #cccccc;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.YuyasLoginUserStatusFlg {
+    background-color: #d5dbff;
+}
+.SatokosLoginUserStatusFlg {
+    background-color: #fce6f9;
+}
+.notAttendace {
+    background-color: #EEEEEE;
+}
+.testUser {
+    background-color: #f4ff91;
+}
+
+.yuyasBgSquare { 
+    width: 15px;
+    height: 15px;
+    background: #d5e2ff;
+    display: inline-block;
+}
+.satokosBgSquare { 
+    width: 15px;
+    height: 15px;
+    background: #fce6f9;
+    display: inline-block;
+}
