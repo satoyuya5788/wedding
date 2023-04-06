@@ -23,13 +23,11 @@ services:
       - app
   
   db:
-    build:
-      context: .
-      dockerfile: ./docker/db/Dockerfile
+    image: mysql:8.0.25
     ports:
       - 3306:3306
     environment:
-      MYSQL_DATABASE: ${DB_DATABASE:-laravel}
+      MYSQL_DATABASE: ${DB_DATABASE:-wedding}
       MYSQL_USER: ${DB_USERNAME:-satoyuya}
       MYSQL_PASSWORD: ${DB_PASSWORD:-root}
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root}
