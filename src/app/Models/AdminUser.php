@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class AdminUser extends Authenticatable
 {
     use HasFactory, Notifiable;
 
@@ -15,10 +15,11 @@ class User extends Authenticatable
      *
      * @var array
      */
+    protected $table = 'admin_users';
+
     protected $fillable = [
         'name',
-        'password',
-        'page_flg'
+        'password'
     ];
 
     public function wedding()
