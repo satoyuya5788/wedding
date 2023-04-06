@@ -1,2 +1,10 @@
-構築手順記録記事　
-[DockerでPHP（Laravel）+ nginx + MySQLのLEMP環境を構築する](https://qiita.com/hinako_n/items/f15646ea548bcdc8ac6c)
+環境構築手順（忘れた時用）
+
+composer install
+npm install
+をホストPCで打つ
+
+mysql/initdb.d/
+このディレクトリ配下にSQLファイルを配置する
+
+docker-compose up -d
